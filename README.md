@@ -38,7 +38,7 @@ UI의 경우, 재활용 이미지를 상징하는 초록색과 녹색 및 해당
 
 ## 2. 실행 화면
 
-![KakaoTalk_20240621_020112526](https://github.com/8color-bird/Waste-Classification/assets/119676236/7af56e74-f04d-44ff-bc5c-32686f0c6ddd)
+![KakaoTalk_20240621_021337907](https://github.com/8color-bird/Waste-Classification/assets/119676236/db42d8f7-0007-46d2-a608-66b01ef37d9e)
 
 
 ## 3. 개발 기간
