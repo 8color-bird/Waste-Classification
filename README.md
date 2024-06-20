@@ -48,12 +48,12 @@ UI의 경우, 재활용 이미지를 상징하는 초록색과 녹색 및 해당
 - Gradio 라이브러리
 
 ## 5. 개발과정
-(1) Waste_Classification_using_YOLOv8_V4_final.ipynb를 작성
-(2) 해당 ipynb 코드를 실행하여 best.pt 라는 가중치 모델을 추출하였다
-(3) 오픈소스를 바탕으로 tts_final.py 를 작성(TTS폴더 내부에 있음)
-(4) ui를 위해 styles.css 파일 작성
-(5) best.pt, tts_final.py, styles.css 활용하여 main.ipynb 작성
-(6) main.ipynb 를 실행할 시 gradio 기반의 웹앱 서비스가 실행되도록 구현하였다.
+(1) Waste_Classification_using_YOLOv8_V4_final.ipynb를 작성<br/>
+(2) 해당 ipynb 코드를 실행하여 best.pt 라는 가중치 모델을 추출하였다<br/>
+(3) 오픈소스를 바탕으로 tts_final.py 를 작성(TTS폴더 내부에 있음)<br/>
+(4) ui를 위해 styles.css 파일 작성<br/>
+(5) best.pt, tts_final.py, styles.css 활용하여 main.ipynb 작성<br/>
+(6) main.ipynb 를 실행할 시 gradio 기반의 웹앱 서비스가 실행되도록 구현하였다.<br/>
 
 ## 6. 사용법
 main.ipynb 실행 시 시각장애인이 폐기물을 정확하게 분리할 수 있도록 지원하는 AI 기반 모바일 웹 서비스를 실행할 수 있다.
