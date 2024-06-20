@@ -1,0 +1,60 @@
+{
+    "IMAGE_INFO": {
+        "FILE_NAME": "1014491@0_01001_221006_P1_T3__0998.jpg",
+        "DATE": "2022-10-28 13:06:02",
+        "RESOLUTION": "1920 x 1080",
+        "IMAGE_PHOTOGRAPHER": "권현진",
+        "FOCUS_DISTANCE": "11.0",
+        "EXPOSURE_TIME": "1/160",
+        "SENSITIVITY_ISO": "5000",
+        "PLACE": "강북재활용센터",
+        "REGION_NAME": null,
+        "Direction": "0",
+        "HEIGHT": "115",
+        "DAY/NIGHT": "주간",
+        "WEATHER": "맑음",
+        "IMAGE_HEIGHT": 1080,
+        "IMAGE_WIDTH": 1920,
+        "IMAGE_SIZE": "490.3 KB"
+    },
+    "ANNOTATION_INFO": [
+        {
+            "ID": "1",
+            "CLASS": "금속캔",
+            "DETAILS": "철캔",
+            "DAMAGE": "원형",
+            "DIRTINESS": "오염없음",
+            "COVER": "없음",
+            "TRANSPARENCY": "불투명",
+            "SHAPE": "낮은 원통형",
+            "SHAPE_TYPE": "BOX",
+            "POINTS": [
+                [
+                    930.0818615157685,
+                    0.21736670874008437,
+                    137.9459643673282,
+                    60.47250585425648
+                ]
+            ]
+        },
+        {
+            "ID": "2",
+            "CLASS": "금속캔",
+            "DETAILS": "철캔",
+            "DAMAGE": "원형",
+            "DIRTINESS": "오염없음",
+            "COVER": "없음",
+            "TRANSPARENCY": "불투명",
+            "SHAPE": "낮은 원통형",
+            "SHAPE_TYPE": "BOX",
+            "POINTS": [
+                [
+                    1119.3000158002271,
+                    823.9209621793415,
+                    165.7908212252455,
+                    164.23332792204076
+                ]
+            ]
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "IMAGE_INFO": {
+        "FILE_NAME": "1014451@0_01001_221006_P1_T3__0849.jpg",
+        "DATE": "2022-10-28 13:05:44",
+        "RESOLUTION": "1920 x 1080",
+        "IMAGE_PHOTOGRAPHER": "권현진",
+        "FOCUS_DISTANCE": "11.0",
+        "EXPOSURE_TIME": "1/160",
+        "SENSITIVITY_ISO": "5000",
+        "PLACE": "강북재활용센터",
+        "REGION_NAME": null,
+        "Direction": "0",
+        "HEIGHT": "115",
+        "DAY/NIGHT": "주간",
+        "WEATHER": "맑음",
+        "IMAGE_HEIGHT": 1080,
+        "IMAGE_WIDTH": 1920,
+        "IMAGE_SIZE": "477.5 KB"
+    },
+    "ANNOTATION_INFO": [
+        {
+            "ID": "1",
+            "CLASS": "금속캔",
+            "DETAILS": "철캔",
+            "DAMAGE": "원형",
+            "DIRTINESS": "이물질(외부)",
+            "COVER": "없음",
+            "TRANSPARENCY": "불투명",
+            "SHAPE": "중간 원통형",
+            "SHAPE_TYPE": "BOX",
+            "POINTS": [
+                [
+                    252.54768497198313,
+                    0.2042684583837608,
+                    335.1970138702417,
+                    279.0695309513779
+                ]
+            ]
+        },
+        {
+            "ID": "2",
+            "CLASS": "금속캔",
+            "DETAILS": "철캔",
+            "DAMAGE": "찌그러짐",
+            "DIRTINESS": "오염없음",
+            "COVER": "없음",
+            "TRANSPARENCY": "불투명",
+            "SHAPE": "높은 원통형",
+            "SHAPE_TYPE": "BOX",
+            "POINTS": [
+                [
+                    691.7296797309434,
+                    614.0769383972479,
+                    233.20936660549864,
+                    429.6764349527209
+                ]
+            ]
+        },
+        {
+            "ID": "3",
+            "CLASS": "금속캔",
+            "DETAILS": "철캔",
+            "DAMAGE": "찌그러짐",
+            "DIRTINESS": "이물질(외부)",
+            "COVER": "없음",
+            "TRANSPARENCY": "불투명",
+            "SHAPE": "높은 원통형",
+            "SHAPE_TYPE": "BOX",
+            "POINTS": [
+                [
+                    975.9157562332898,
+                    619.7098842224743,
+                    350.3166567929711,
+                    458.580903112839
+                ]
+            ]
+        }
+    ]
+}
