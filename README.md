@@ -42,7 +42,7 @@ UI의 경우, 재활용 이미지를 상징하는 초록색과 녹색 및 해당
 - **임소정** : 팀원3, 
 
 ## 4. 개발 환경
-- Python 3.
+- Python 3.10.12
 - Colab 및 JupyterNotebook
 - Gradio
 
