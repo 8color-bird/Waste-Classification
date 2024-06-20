@@ -55,4 +55,5 @@ UI의 경우, 재활용 이미지를 상징하는 초록색과 녹색 및 해당
 
 ## 
 
-## FQA
+## FAQ
+기타 문의사항은 https://github.com/8color-bird/Waste-Classification/ 깃헙의 issues 항목에 작성요함.
