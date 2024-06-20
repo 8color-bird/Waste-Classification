@@ -19,6 +19,8 @@
 
 **(1) Real-time Object Detection(실시간 객체 인식) 모듈**<br/>
 본 프로젝트에서는 객체 탐지 모델 중 가장 정확도와 안정도가 높은 YOLOv8 오픈소스를 활용하여 종이, 플라스틱, 캔, 유리, 스티로폼, 비닐, 페트 총 7개의 재활용 가능한 물체에 대한 객체 탐지를 가능하게 하는 모듈을 개발하였다. 또한 이 과정에서 AI-hub의 "재활용품 선별 이미지 데이터" 와 roboflow labeling api를 활용하였다. 
+![image](https://github.com/8color-bird/Waste-Classification/assets/102949053/1518c5db-8442-46fc-966d-ba73ab446547)
+
 
 **(2) Text-To-Speech(이하 TTS, 음성 인식) 모듈**<br/>
 gTTS (Google Text-to-Speech), a Python library and CLI tool to interface with Google Translate's text-to-speech API 를 기반으로한 TTS 모델을 사용하였다.
