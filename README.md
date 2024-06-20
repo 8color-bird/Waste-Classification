@@ -60,6 +60,18 @@ UI의 경우, 재활용 이미지를 상징하는 초록색과 녹색 및 해당
 
 ## 6. 사용법
 main.ipynb 실행 시 시각장애인이 폐기물을 정확하게 분리할 수 있도록 지원하는 AI 기반 모바일 웹 서비스를 실행할 수 있다.
+
+아래 코드에 본인이 사용할 Roboflow API key, Workspace ID, Project ID 를 입력하여 사용할 수 있다.
+```Python
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="your_api_key")
+project = rf.workspace("your_workspace_ID").project("your_project_ID")
+version = project.version(4)
+dataset = version.download("yolov8")
+```
+
 <br/>이외 세부적인 모듈별 사용방법은 "5. 개발과정" 항목을 참고.
 
 ## 7. 라이센스
