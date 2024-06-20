@@ -21,7 +21,8 @@
 본 프로젝트에서는 객체 탐지 모델 중 가장 정확도와 안정도가 높은 YOLOv8 오픈소스를 활용하여 종이, 플라스틱, 캔, 유리, 스티로폼, 비닐, 페트 총 7개의 재활용 가능한 물체에 대한 객체 탐지를 가능하게 하는 모듈을 개발하였다. 또한 이 과정에서 AI-hub의 "재활용품 선별 이미지 데이터" 와 roboflow labeling api를 활용하였다. 
 
 **(2) Text-To-Speech(이하 TTS, 음성 인식) 모듈**<br/>
-어떤 오픈소스 사용하였는지??
+gTTS (Google Text-to-Speech), a Python library and CLI tool to interface with Google Translate's text-to-speech API 를 기반으로한 TTS 모델을 사용하였다.
+(https://github.com/pndurette/gTTS) 또한 해당 모듈을 커스터마이징하여 YOLOv8 재활용품 객체 탐지 모델의 결과 데이터를 인식하여 음성으로 출력하도록 하였다.
 
 **(3) UI**<br/>
 UI의 경우, 재활용 이미지를 상징하는 초록색과 녹색 및 해당 색깔과 함께할때 시인성이 좋은 흰색으로 MAIN COLOR를 선택하였다.
