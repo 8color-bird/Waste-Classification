@@ -66,6 +66,7 @@ UI의 경우, 재활용 이미지를 상징하는 초록색과 녹색 및 해당
 main.ipynb 실행 시 시각장애인이 폐기물을 정확하게 분리할 수 있도록 지원하는 AI 기반 모바일 웹 서비스를 실행할 수 있다.
 
 본인의 모델을 새롭게 학습시키고자 하는 경우
+
 : Waste_Classification_using_YOLOv8_V4_final.ipynb 파일 중 해당 부분에 본인이 사용할 Roboflow API key, Workspace ID, Project ID 를 입력하여 사용할 수 있다.
 ```Python
 !pip install roboflow
