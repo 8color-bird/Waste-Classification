@@ -32,13 +32,14 @@ h1 {
 }
 
 p {
-    font-size: 20px; /* 설명 텍스트 크기를 키움 */
+    font-size: 24px; /* 설명 텍스트 크기를 더 키움 */
     color: #ffffff; /* 설명 텍스트 색을 흰색으로 변경 */
+    text-align: center; /* 중앙 정렬 */
 }
 
 button {
-    background-color: #00563f; /* 버튼 배경색을 어두운 녹색으로 변경 */
-    color: white;
+    background-color: #ffffff; /* 버튼 배경색을 흰색으로 변경 */
+    color: #00563f; /* 버튼 텍스트 색을 어두운 녹색으로 변경 */
     border: none;
     padding: 15px 30px; /* 버튼 크기를 키움 */
     text-align: center;
@@ -53,6 +54,7 @@ button {
 
 button:hover {
     background-color: #004c38;
+    color: #ffffff; /* 호버 시 텍스트 색을 흰색으로 변경 */
 }
 
 button:focus {
@@ -62,14 +64,22 @@ button:focus {
 
 /* Gradio 기본 요소 스타일 덮어쓰기 */
 .gradio-container {
-    background-color: #ffffff; /* 배경색을 어두운 녹색으로 변경 */
-    color: # 00714e; /* 기본 텍스트 색을 흰색으로 변경 */
+    background-color: #00714e; /* 배경색을 어두운 녹색으로 변경 */
+    color: #ffffff; /* 기본 텍스트 색을 흰색으로 변경 */
 }
 
 .gradio-container .gr-button {
     background-color: #ffffff; /* 버튼 배경색을 흰색으로 변경 */
     color: #00563f; /* 버튼 텍스트 색을 어두운 녹색으로 변경 */
     font-size: 18px; /* 버튼 텍스트 크기를 키움 */
+}
+
+/* 입력 요소 (이미지, 텍스트박스) 레이블 스타일 */
+.gradio-container .gr-image label,
+.gradio-container .gr-textbox label,
+.gradio-container .gr-input label {
+    font-size: 20px; /* 레이블 텍스트 크기를 키움 */
+    color: #ffffff; /* 레이블 텍스트 색을 흰색으로 변경 */
 }
 
 .gradio-container .gr-textbox, .gradio-container .gr-input {
@@ -93,9 +103,19 @@ button:focus {
         font-size: 24px;
     }
 
+    p {
+        font-size: 20px; /* 작은 화면에서 설명 텍스트 크기 조정 */
+    }
+
     button {
         padding: 10px 20px; /* 버튼 크기를 줄임 */
         font-size: 16px; /* 버튼 텍스트 크기를 줄임 */
+    }
+
+    .gradio-container .gr-image label,
+    .gradio-container .gr-textbox label,
+    .gradio-container .gr-input label {
+        font-size: 18px; /* 작은 화면에서 레이블 텍스트 크기를 줄임 */
     }
 }
 
@@ -108,8 +128,18 @@ button:focus {
         font-size: 20px;
     }
 
+    p {
+        font-size: 18px; /* 작은 화면에서 설명 텍스트 크기 조정 */
+    }
+
     button {
         padding: 8px 16px; /* 버튼 크기를 줄임 */
         font-size: 14px; /* 버튼 텍스트 크기를 줄임 */
+    }
+
+    .gradio-container .gr-image label,
+    .gradio-container .gr-textbox label,
+    .gradio-container .gr-input label {
+        font-size: 16px; /* 작은 화면에서 레이블 텍스트 크기를 줄임 */
     }
 }
