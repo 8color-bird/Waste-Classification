@@ -65,7 +65,8 @@ UI의 경우, 재활용 이미지를 상징하는 초록색과 녹색 및 해당
 ## 6. 사용법
 main.ipynb 실행 시 시각장애인이 폐기물을 정확하게 분리할 수 있도록 지원하는 AI 기반 모바일 웹 서비스를 실행할 수 있다.
 
-아래 코드에 본인이 사용할 Roboflow API key, Workspace ID, Project ID 를 입력하여 사용할 수 있다.
+본인의 모델을 새롭게 학습시키고자 하는 경우
+: Waste_Classification_using_YOLOv8_V4_final.ipynb 파일 중 해당 부분에 본인이 사용할 Roboflow API key, Workspace ID, Project ID 를 입력하여 사용할 수 있다.
 ```Python
 !pip install roboflow
 
@@ -77,6 +78,10 @@ dataset = version.download("yolov8")
 ```
 
 <br/>이외 세부적인 모듈별 사용방법은 "5. 개발과정" 항목을 참고.
+<br/>(참고사항)
+- best.pt: PyTorch 내에서 모델을 저장하고 배포할 때 권장되는 방식이다. 모델의 가중치만 저장하여 효율적이고, PyTorch 생태계와의 호환성이 좋다. 모델의 구조를 코드 내에 별도로 유지하는 것이 필요하다.
+- pkl: 모델의 구조와 가중치를 함께 저장하여 관리가 간편하다. 그러나 파일 크기가 클 수 있고, 호환성 문제가 발생할 수 있다.
+<br/> 해당 프로젝트에서는 best.pt 파일을 사용하여 학습된 모델을 불러왔으나, 사용자에 따라 필요한 경우 pkl 파일을 사용할 수 있도록 pkl 파일도 깃헙에 첨부해두었다.
 
 ## 7. 라이센스
 LICENSE 파일 참조.
