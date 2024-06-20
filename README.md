@@ -1,7 +1,7 @@
 # 시각장애인을 위한 분리수거함 네비게이터 개발
 – Yolov8을 활용한 실시간 객체 탐지 기능 및 TTS 기능 중심으로 개발함.
 
-(보이시네 메인 화면 캡쳐본 넣으면 좋을 것 같아요)
+![KakaoTalk_20240621_015342406_02](https://github.com/8color-bird/Waste-Classification/assets/119676236/82e312bf-4fa3-44d3-b5e8-98c437ebfd60)
 
 ## 목차
 1. 프로젝트 설명
@@ -37,8 +37,8 @@ UI의 경우, 재활용 이미지를 상징하는 초록색과 녹색 및 해당
 
 ## 2. 실행 화면
 
-(url 이나 앱 실행 화면 순서대로 캡쳐해서 넣으면 좋을 것 같아요)
-
+![KakaoTalk_20240621_015342406_01](https://github.com/8color-bird/Waste-Classification/assets/119676236/0bb7b32e-a483-4be1-8ea0-fb0bf5c67d5a)
+![KakaoTalk_20240621_015342406](https://github.com/8color-bird/Waste-Classification/assets/119676236/5b832ba5-8c05-4ba3-9466-8c60c9d7c39a)
 
 ## 3. 개발 기간
 2024/05/12(일) ~ 2024/06/20(목)
