@@ -1,0 +1,115 @@
+/* styles.css */
+
+/* Noonnu Fonts import */
+@font-face {
+    font-family: 'KoddiUDOnGothic-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/KoddiUDOnGothic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'KoddiUDOnGothic-Regular';
+    background-color: #00714e; /* 배경색을 어두운 녹색으로 변경 */
+    color: #ffffff; /* 기본 텍스트 색을 흰색으로 변경 */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #00714e; /* 배경색을 어두운 녹색으로 변경 */
+    color: #ffffff; /* 텍스트 색을 흰색으로 변경 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff; /* 헤더 텍스트 색을 흰색으로 변경 */
+    font-size: 32px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px; /* 설명 텍스트 크기를 키움 */
+    color: #ffffff; /* 설명 텍스트 색을 흰색으로 변경 */
+}
+
+button {
+    background-color: #00563f; /* 버튼 배경색을 어두운 녹색으로 변경 */
+    color: white;
+    border: none;
+    padding: 15px 30px; /* 버튼 크기를 키움 */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px; /* 버튼 텍스트 크기를 키움 */
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004c38;
+}
+
+button:focus {
+    outline: 2px solid #003d30;
+    outline-offset: 2px;
+}
+
+/* Gradio 기본 요소 스타일 덮어쓰기 */
+.gradio-container {
+    background-color: #ffffff; /* 배경색을 어두운 녹색으로 변경 */
+    color: # 00714e; /* 기본 텍스트 색을 흰색으로 변경 */
+}
+
+.gradio-container .gr-button {
+    background-color: #ffffff; /* 버튼 배경색을 흰색으로 변경 */
+    color: #00563f; /* 버튼 텍스트 색을 어두운 녹색으로 변경 */
+    font-size: 18px; /* 버튼 텍스트 크기를 키움 */
+}
+
+.gradio-container .gr-textbox, .gradio-container .gr-input {
+    background-color: #ffffff; /* 텍스트박스와 입력 요소 배경색을 흰색으로 변경 */
+    color: #00714e; /* 텍스트박스와 입력 요소 텍스트 색을 짙은 녹색으로 변경 */
+    font-size: 18px; /* 입력 요소 텍스트 크기를 키움 */
+}
+
+.gradio-container .gr-markdown {
+    color: #ffffff; /* Gradio Markdown 텍스트 색을 흰색으로 변경 */
+    text-align: center;
+}
+
+/* 미디어 쿼리 추가 */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    button {
+        padding: 10px 20px; /* 버튼 크기를 줄임 */
+        font-size: 16px; /* 버튼 텍스트 크기를 줄임 */
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 5px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    button {
+        padding: 8px 16px; /* 버튼 크기를 줄임 */
+        font-size: 14px; /* 버튼 텍스트 크기를 줄임 */
+    }
+}
