@@ -25,11 +25,13 @@ body {
 
 h1 {
     text-align: center;
-    color: #4CAF50;
+    color: #00714e; /* 더 어두운 녹색으로 변경 */
+    font-size: 32px;
+    font-weight: bold; /* 굵게 처리하여 큰 텍스트로 간주 */
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #00563f; /* 더 어두운 배경색으로 변경 */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -40,6 +42,16 @@ button {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004c38; /* 호버 시 더 어두운 색상으로 변경 */
+}
+
+button:focus {
+    outline: 2px solid #003d30;
+    outline-offset: 2px;
 }
 
 /* 미디어 쿼리 추가 */
