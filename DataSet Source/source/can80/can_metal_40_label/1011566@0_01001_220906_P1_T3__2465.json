@@ -1,0 +1,41 @@
+{
+    "IMAGE_INFO": {
+        "FILE_NAME": "1011566@0_01001_220906_P1_T3__2465.jpg",
+        "DATE": "2022-10-21 12:44:06",
+        "RESOLUTION": "1920 x 1080",
+        "IMAGE_PHOTOGRAPHER": "김건무",
+        "FOCUS_DISTANCE": "5.0",
+        "EXPOSURE_TIME": "1/320",
+        "SENSITIVITY_ISO": "6400",
+        "PLACE": "삼오자원",
+        "REGION_NAME": null,
+        "Direction": "0",
+        "HEIGHT": "100",
+        "DAY/NIGHT": "주간",
+        "WEATHER": "맑음",
+        "IMAGE_HEIGHT": 1080,
+        "IMAGE_WIDTH": 1920,
+        "IMAGE_SIZE": "462.8 KB"
+    },
+    "ANNOTATION_INFO": [
+        {
+            "ID": "1",
+            "CLASS": "금속캔",
+            "DETAILS": "철캔",
+            "DAMAGE": "찌그러짐",
+            "DIRTINESS": "오염없음",
+            "COVER": "없음",
+            "TRANSPARENCY": "불투명",
+            "SHAPE": "높은 원통형",
+            "SHAPE_TYPE": "BOX",
+            "POINTS": [
+                [
+                    766.7048458149778,
+                    70.77092511013215,
+                    355.27718061674034,
+                    194.1145374449339
+                ]
+            ]
+        }
+    ]
+}

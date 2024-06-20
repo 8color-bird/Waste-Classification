@@ -1,0 +1,41 @@
+{
+    "IMAGE_INFO": {
+        "FILE_NAME": "961479@0_05001_220906_P1_T3__1063.jpg",
+        "DATE": "2022-10-26 01:12:16",
+        "RESOLUTION": "1920 x 1080",
+        "IMAGE_PHOTOGRAPHER": "심선화",
+        "FOCUS_DISTANCE": "5.6",
+        "EXPOSURE_TIME": "1/400",
+        "SENSITIVITY_ISO": "12800",
+        "PLACE": "삼오자원",
+        "REGION_NAME": null,
+        "Direction": "0",
+        "HEIGHT": "100",
+        "DAY/NIGHT": "주간",
+        "WEATHER": "맑음",
+        "IMAGE_HEIGHT": 1080,
+        "IMAGE_WIDTH": 1920,
+        "IMAGE_SIZE": "651.8 KB"
+    },
+    "ANNOTATION_INFO": [
+        {
+            "ID": "1",
+            "CLASS": "스티로폼",
+            "DETAILS": "스티로폼",
+            "DAMAGE": "파손",
+            "DIRTINESS": "이물질(외부)",
+            "COVER": "없음",
+            "TRANSPARENCY": "불투명",
+            "SHAPE": "내장재용도형",
+            "SHAPE_TYPE": "BOX",
+            "POINTS": [
+                [
+                    1003.0834055667841,
+                    42.503197097260696,
+                    392.9538841061277,
+                    360.1960749810287
+                ]
+            ]
+        }
+    ]
+}

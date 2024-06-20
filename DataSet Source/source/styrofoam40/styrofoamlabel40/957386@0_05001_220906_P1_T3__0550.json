@@ -1,0 +1,41 @@
+{
+    "IMAGE_INFO": {
+        "FILE_NAME": "957386@0_05001_220906_P1_T3__0550.jpg",
+        "DATE": "2022-10-21 15:48:26",
+        "RESOLUTION": "1920 x 1080",
+        "IMAGE_PHOTOGRAPHER": "홍왕기",
+        "FOCUS_DISTANCE": "5.6",
+        "EXPOSURE_TIME": "1/400",
+        "SENSITIVITY_ISO": "12800",
+        "PLACE": "삼오자원",
+        "REGION_NAME": null,
+        "Direction": "0",
+        "HEIGHT": "100",
+        "DAY/NIGHT": "주간",
+        "WEATHER": "맑음",
+        "IMAGE_HEIGHT": 1080,
+        "IMAGE_WIDTH": 1920,
+        "IMAGE_SIZE": "662.4 KB"
+    },
+    "ANNOTATION_INFO": [
+        {
+            "ID": "1",
+            "CLASS": "스티로폼",
+            "DETAILS": "스티로폼",
+            "DAMAGE": "파손",
+            "DIRTINESS": "이물질(내부)",
+            "COVER": "없음",
+            "TRANSPARENCY": "불투명",
+            "SHAPE": "식품용기형",
+            "SHAPE_TYPE": "BOX",
+            "POINTS": [
+                [
+                    365.4752851711026,
+                    104.62926712326224,
+                    568.7452471482891,
+                    583.1178707224335
+                ]
+            ]
+        }
+    ]
+}

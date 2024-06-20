@@ -1,0 +1,60 @@
+{
+    "IMAGE_INFO": {
+        "FILE_NAME": "942099@0_01002_220906_P1_T3__1645.jpg",
+        "DATE": "2022-10-21 11:35:36",
+        "RESOLUTION": "1920 x 1080",
+        "IMAGE_PHOTOGRAPHER": "강윤정",
+        "FOCUS_DISTANCE": "5.6",
+        "EXPOSURE_TIME": "1/250",
+        "SENSITIVITY_ISO": "6400",
+        "PLACE": "삼오자원",
+        "REGION_NAME": null,
+        "Direction": "0",
+        "HEIGHT": "100",
+        "DAY/NIGHT": "주간",
+        "WEATHER": "맑음",
+        "IMAGE_HEIGHT": 1080,
+        "IMAGE_WIDTH": 1920,
+        "IMAGE_SIZE": "569.5 KB"
+    },
+    "ANNOTATION_INFO": [
+        {
+            "ID": "1",
+            "CLASS": "금속캔",
+            "DETAILS": "알루미늄캔",
+            "DAMAGE": "완전압착",
+            "DIRTINESS": "이물질(외부)",
+            "COVER": "없음",
+            "TRANSPARENCY": "불투명",
+            "SHAPE": "홀쭉한 원통형",
+            "SHAPE_TYPE": "BOX",
+            "POINTS": [
+                [
+                    1004.8794725274721,
+                    109.65630923978338,
+                    234.30920439560452,
+                    170.1415384615385
+                ]
+            ]
+        },
+        {
+            "ID": "2",
+            "CLASS": "금속캔",
+            "DETAILS": "알루미늄캔",
+            "DAMAGE": "찌그러짐",
+            "DIRTINESS": "오염없음",
+            "COVER": "없음",
+            "TRANSPARENCY": "불투명",
+            "SHAPE": "홀쭉한 원통형",
+            "SHAPE_TYPE": "BOX",
+            "POINTS": [
+                [
+                    1153.8102857142853,
+                    720.958146602421,
+                    303.8241758241761,
+                    286.81002197802195
+                ]
+            ]
+        }
+    ]
+}

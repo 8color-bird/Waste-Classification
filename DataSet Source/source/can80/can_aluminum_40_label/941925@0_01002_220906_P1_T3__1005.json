@@ -1,0 +1,79 @@
+{
+    "IMAGE_INFO": {
+        "FILE_NAME": "941925@0_01002_220906_P1_T3__1005.jpg",
+        "DATE": "2022-10-21 11:34:10",
+        "RESOLUTION": "1920 x 1080",
+        "IMAGE_PHOTOGRAPHER": "강윤정",
+        "FOCUS_DISTANCE": "5.6",
+        "EXPOSURE_TIME": "1/250",
+        "SENSITIVITY_ISO": "6400",
+        "PLACE": "삼오자원",
+        "REGION_NAME": null,
+        "Direction": "0",
+        "HEIGHT": "100",
+        "DAY/NIGHT": "주간",
+        "WEATHER": "맑음",
+        "IMAGE_HEIGHT": 1080,
+        "IMAGE_WIDTH": 1920,
+        "IMAGE_SIZE": "530.0 KB"
+    },
+    "ANNOTATION_INFO": [
+        {
+            "ID": "1",
+            "CLASS": "금속캔",
+            "DETAILS": "알루미늄캔",
+            "DAMAGE": "찌그러짐",
+            "DIRTINESS": "오염없음",
+            "COVER": "없음",
+            "TRANSPARENCY": "불투명",
+            "SHAPE": "뚱뚱한 원통형",
+            "SHAPE_TYPE": "BOX",
+            "POINTS": [
+                [
+                    418.8905316455697,
+                    133.23690443903286,
+                    207.18501265822783,
+                    235.18298734177222
+                ]
+            ]
+        },
+        {
+            "ID": "2",
+            "CLASS": "금속캔",
+            "DETAILS": "알루미늄캔",
+            "DAMAGE": "찌그러짐",
+            "DIRTINESS": "오염없음",
+            "COVER": "없음",
+            "TRANSPARENCY": "불투명",
+            "SHAPE": "홀쭉한 원통형",
+            "SHAPE_TYPE": "BOX",
+            "POINTS": [
+                [
+                    761.5850126582279,
+                    25.271901907387228,
+                    204.38521518987363,
+                    263.2188759493672
+                ]
+            ]
+        },
+        {
+            "ID": "3",
+            "CLASS": "금속캔",
+            "DETAILS": "알루미늄캔",
+            "DAMAGE": "찌그러짐",
+            "DIRTINESS": "오염없음",
+            "COVER": "없음",
+            "TRANSPARENCY": "불투명",
+            "SHAPE": "뚱뚱한 원통형",
+            "SHAPE_TYPE": "BOX",
+            "POINTS": [
+                [
+                    976.7149464303798,
+                    195.23080742637467,
+                    199.97273437974673,
+                    262.32982359493684
+                ]
+            ]
+        }
+    ]
+}

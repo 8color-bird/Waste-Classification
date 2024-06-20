@@ -1,0 +1,41 @@
+{
+    "IMAGE_INFO": {
+        "FILE_NAME": "871717@0_01002_220907_P1_T3__1053.jpg",
+        "DATE": "2022-10-06 14:50:13",
+        "RESOLUTION": "1920 x 1080",
+        "IMAGE_PHOTOGRAPHER": "이지은",
+        "FOCUS_DISTANCE": "5.6",
+        "EXPOSURE_TIME": "1/320",
+        "SENSITIVITY_ISO": "8000",
+        "PLACE": "용인시재활용센터",
+        "REGION_NAME": null,
+        "Direction": "0",
+        "HEIGHT": "120",
+        "DAY/NIGHT": "주간",
+        "WEATHER": "맑음",
+        "IMAGE_HEIGHT": 1080,
+        "IMAGE_WIDTH": 1920,
+        "IMAGE_SIZE": "599.3 KB"
+    },
+    "ANNOTATION_INFO": [
+        {
+            "ID": "1",
+            "CLASS": "금속캔",
+            "DETAILS": "알루미늄캔",
+            "DAMAGE": "찌그러짐",
+            "DIRTINESS": "오염없음",
+            "COVER": "없음",
+            "TRANSPARENCY": "불투명",
+            "SHAPE": "뚱뚱하고 긴 원통형",
+            "SHAPE_TYPE": "BOX",
+            "POINTS": [
+                [
+                    1133.248920863309,
+                    0,
+                    417.7035971223024,
+                    242.56675770711547
+                ]
+            ]
+        }
+    ]
+}

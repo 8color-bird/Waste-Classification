@@ -1,0 +1,60 @@
+{
+    "IMAGE_INFO": {
+        "FILE_NAME": "902441@0_05001_220907_P1_T3__0735.jpg",
+        "DATE": "2022-10-13 16:08:36",
+        "RESOLUTION": "1920 x 1080",
+        "IMAGE_PHOTOGRAPHER": "이지은",
+        "FOCUS_DISTANCE": "5.6",
+        "EXPOSURE_TIME": "1/400",
+        "SENSITIVITY_ISO": "8000",
+        "PLACE": "용인시재활용센터",
+        "REGION_NAME": null,
+        "Direction": "0",
+        "HEIGHT": "120",
+        "DAY/NIGHT": "주간",
+        "WEATHER": "맑음",
+        "IMAGE_HEIGHT": 1080,
+        "IMAGE_WIDTH": 1920,
+        "IMAGE_SIZE": "576.6 KB"
+    },
+    "ANNOTATION_INFO": [
+        {
+            "ID": "1",
+            "CLASS": "스티로폼",
+            "DETAILS": "스티로폼",
+            "DAMAGE": "파손",
+            "DIRTINESS": "이물질(외부)",
+            "COVER": "겹침",
+            "TRANSPARENCY": "불투명",
+            "SHAPE": "식품용기형",
+            "SHAPE_TYPE": "BOX",
+            "POINTS": [
+                [
+                    448.1632653061224,
+                    0,
+                    487.34693877551024,
+                    437.5446428571428
+                ]
+            ]
+        },
+        {
+            "ID": "2",
+            "CLASS": "스티로폼",
+            "DETAILS": "스티로폼",
+            "DAMAGE": "원형",
+            "DIRTINESS": "이물질(내부)",
+            "COVER": "겹침",
+            "TRANSPARENCY": "불투명",
+            "SHAPE": "식품용기형",
+            "SHAPE_TYPE": "BOX",
+            "POINTS": [
+                [
+                    1114.2857142857144,
+                    4.075255102040816,
+                    480.0,
+                    413.8775510204082
+                ]
+            ]
+        }
+    ]
+}

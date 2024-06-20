@@ -1,0 +1,79 @@
+{
+    "IMAGE_INFO": {
+        "FILE_NAME": "941973@0_01002_220906_P1_T3__0967.jpg",
+        "DATE": "2022-10-21 11:34:04",
+        "RESOLUTION": "1920 x 1080",
+        "IMAGE_PHOTOGRAPHER": "강윤정",
+        "FOCUS_DISTANCE": "5.6",
+        "EXPOSURE_TIME": "1/250",
+        "SENSITIVITY_ISO": "6400",
+        "PLACE": "삼오자원",
+        "REGION_NAME": null,
+        "Direction": "0",
+        "HEIGHT": "100",
+        "DAY/NIGHT": "주간",
+        "WEATHER": "맑음",
+        "IMAGE_HEIGHT": 1080,
+        "IMAGE_WIDTH": 1920,
+        "IMAGE_SIZE": "537.2 KB"
+    },
+    "ANNOTATION_INFO": [
+        {
+            "ID": "1",
+            "CLASS": "금속캔",
+            "DETAILS": "알루미늄캔",
+            "DAMAGE": "찌그러짐",
+            "DIRTINESS": "오염없음",
+            "COVER": "없음",
+            "TRANSPARENCY": "불투명",
+            "SHAPE": "뚱뚱한 원통형",
+            "SHAPE_TYPE": "BOX",
+            "POINTS": [
+                [
+                    547.0503945870536,
+                    477.9500656389509,
+                    241.33371428571445,
+                    273.918857142857
+                ]
+            ]
+        },
+        {
+            "ID": "2",
+            "CLASS": "금속캔",
+            "DETAILS": "알루미늄캔",
+            "DAMAGE": "찌그러짐",
+            "DIRTINESS": "오염없음",
+            "COVER": "없음",
+            "TRANSPARENCY": "불투명",
+            "SHAPE": "뚱뚱한 원통형",
+            "SHAPE_TYPE": "BOX",
+            "POINTS": [
+                [
+                    235.51664167313356,
+                    446.11003638180796,
+                    298.1047243424915,
+                    277.61110717001156
+                ]
+            ]
+        },
+        {
+            "ID": "3",
+            "CLASS": "금속캔",
+            "DETAILS": "알루미늄캔",
+            "DAMAGE": "찌그러짐",
+            "DIRTINESS": "오염없음",
+            "COVER": "없음",
+            "TRANSPARENCY": "불투명",
+            "SHAPE": "뚱뚱한 원통형",
+            "SHAPE_TYPE": "BOX",
+            "POINTS": [
+                [
+                    756.3902665934012,
+                    1.1444637054383113,
+                    230.17645571116043,
+                    158.78482773657586
+                ]
+            ]
+        }
+    ]
+}

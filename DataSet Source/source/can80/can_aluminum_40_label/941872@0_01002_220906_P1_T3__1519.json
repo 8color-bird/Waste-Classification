@@ -1,0 +1,98 @@
+{
+    "IMAGE_INFO": {
+        "FILE_NAME": "941872@0_01002_220906_P1_T3__1519.jpg",
+        "DATE": "2022-10-21 11:35:20",
+        "RESOLUTION": "1920 x 1080",
+        "IMAGE_PHOTOGRAPHER": "강윤정",
+        "FOCUS_DISTANCE": "5.6",
+        "EXPOSURE_TIME": "1/250",
+        "SENSITIVITY_ISO": "6400",
+        "PLACE": "삼오자원",
+        "REGION_NAME": null,
+        "Direction": "0",
+        "HEIGHT": "100",
+        "DAY/NIGHT": "주간",
+        "WEATHER": "맑음",
+        "IMAGE_HEIGHT": 1080,
+        "IMAGE_WIDTH": 1920,
+        "IMAGE_SIZE": "563.9 KB"
+    },
+    "ANNOTATION_INFO": [
+        {
+            "ID": "1",
+            "CLASS": "금속캔",
+            "DETAILS": "알루미늄캔",
+            "DAMAGE": "찌그러짐",
+            "DIRTINESS": "오염없음",
+            "COVER": "겹침",
+            "TRANSPARENCY": "불투명",
+            "SHAPE": "뚱뚱한 원통형",
+            "SHAPE_TYPE": "BOX",
+            "POINTS": [
+                [
+                    425.7450197802198,
+                    533.2935488002231,
+                    244.03157802197796,
+                    292.64344615384607
+                ]
+            ]
+        },
+        {
+            "ID": "2",
+            "CLASS": "금속캔",
+            "DETAILS": "알루미늄캔",
+            "DAMAGE": "찌그러짐",
+            "DIRTINESS": "오염없음",
+            "COVER": "겹침",
+            "TRANSPARENCY": "불투명",
+            "SHAPE": "뚱뚱한 원통형",
+            "SHAPE_TYPE": "BOX",
+            "POINTS": [
+                [
+                    693.0951032967032,
+                    60.14056418483861,
+                    223.61459340659349,
+                    219.72564395604402
+                ]
+            ]
+        },
+        {
+            "ID": "3",
+            "CLASS": "금속캔",
+            "DETAILS": "알루미늄캔",
+            "DAMAGE": "찌그러짐",
+            "DIRTINESS": "오염없음",
+            "COVER": "겹침",
+            "TRANSPARENCY": "불투명",
+            "SHAPE": "홀쭉한 원통형",
+            "SHAPE_TYPE": "BOX",
+            "POINTS": [
+                [
+                    586.3502769230769,
+                    0.24542572330008147,
+                    339.3108395604397,
+                    212.91998241758245
+                ]
+            ]
+        },
+        {
+            "ID": "5",
+            "CLASS": "금속캔",
+            "DETAILS": "알루미늄캔",
+            "DAMAGE": "완전압착",
+            "DIRTINESS": "오염없음",
+            "COVER": "없음",
+            "TRANSPARENCY": "불투명",
+            "SHAPE": "뚱뚱하고 긴 원통형",
+            "SHAPE_TYPE": "BOX",
+            "POINTS": [
+                [
+                    472.90232967032955,
+                    201.33525429472866,
+                    266.3930373626374,
+                    276.11541098901114
+                ]
+            ]
+        }
+    ]
+}
